@@ -13,7 +13,7 @@
       <program name="cg-proc -w">
         <file name="ewo-fra.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -u 2 -g $2">
         <file name="ewo-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -58,7 +58,7 @@
       <program name="cg-proc -w">
         <file name="fra-ewo.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -u 2 -g $2">
         <file name="fra-ewo.prob"/>
       </program>
 

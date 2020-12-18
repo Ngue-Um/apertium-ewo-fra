@@ -1,1 +1,1 @@
-# apertium-ewo-fra
+README

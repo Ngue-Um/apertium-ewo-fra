@@ -98,14 +98,15 @@
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
       <e><p><l>ndá<s n="n"/></l><r>maison<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>nlô<s n="n"/></l><r>tête<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nló<s n="n"/></l><r>tête<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sí<s n="n"/></l><r>terre<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>wo<s n="n"/></l><r>main<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>wɔ́<s n="n"/></l><r>main<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>yóp<s n="n"/></l><r>ciel<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ŋgogé<s n="n"/></l><r>soir<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>məndím<s n="n"/></l><r>eau<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>kídí<s n="n"/></l><r>matin<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Zambá<s n="n"/></l><r>Dieu<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>zǎm<s n="n"/></l><r>lèpre<s n="n"/><s n="f"/></r></p></e>
  
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

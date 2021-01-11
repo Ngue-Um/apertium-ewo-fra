@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệɛɛ́ɛ̀ɛ̄ɛ̂ɛ̌əə́ə̀ə̄ə̂ə̌fFgGhHiIíjJkKlLmm̀ḿMnǹńŋŋ́ŋ̀NoOóöớɔɔ́ɔ̀ɔ̄ɔ̂ɔ̌pPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -194,7 +194,7 @@
       <e><p><l>lod<s n="vblex"/></l><r>dépasser<s n="vblex"/></r></p></e>
       <e><p><l>manə<s n="vblex"/></l><r>terminer<s n="vblex"/></r></p></e>
       <e><p><l>miníngá<s n="n"/></l><r>femme<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>mɔ́ŋgɔ́<s n="n"/></l><r>enfant<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mɔ́ngɔ́<s n="n"/></l><r>enfant<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>kpələ́mvě<s n="n"/></l><r>cellulite<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tɛ́<s n="vblex"/></l><r>être douloureux<s n="vblex"/></r></p></e>
       <e><p><l>yá<s n="vblex"/></l><r>grandir<s n="vblex"/></r></p></e>

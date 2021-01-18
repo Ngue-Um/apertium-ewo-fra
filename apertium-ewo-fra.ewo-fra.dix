@@ -21,6 +21,9 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
 
+    <sdef n="cl7"             c="cl7"/>
+    <sdef n="cl8"             c="cl8"/>
+
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
     <sdef n="ant"             c="Anthroponym"/>
@@ -174,7 +177,8 @@
       <e><p><l>efəl<s n="n"/></l><r>cicatrice<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>elɔbí<s n="n"/></l><r>marécage<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>elɔ́g<s n="n"/></l><r>herbe<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>lɔ́g<s n="n"/></l><r>herbe<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lɔ́g<s n="n"/><s n="cl7"/><s n="sg"/></l><r>herbe<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>lɔ́g<s n="n"/><s n="cl8"/><s n="pl"/></l><r>herbe<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>elunga<s n="n"/></l><r>association<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>emvúm<s n="n"/></l><r>particule<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>enam<s n="n"/></l><r>membre supérieur du corps<s n="n"/><s n="m"/></r></p></e>

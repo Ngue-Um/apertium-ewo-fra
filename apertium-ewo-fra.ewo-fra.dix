@@ -21,8 +21,19 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
 
-    <sdef n="cl7"             c="cl7"/>
-    <sdef n="cl8"             c="cl8"/>
+    <sdef n="cl1"             c="Noun class 1"/>
+    <sdef n="cl2"             c="Noun class 2"/>
+    <sdef n="cl3"             c="Noun class 3"/>
+    <sdef n="cl4"             c="Noun class 4"/>
+    <sdef n="cl5"             c="Noun class 5"/>
+    <sdef n="cl6"             c="Noun class 6"/>
+    <sdef n="cl7"             c="Noun class 7"/>
+    <sdef n="cl8"             c="Noun class 8"/>
+    <sdef n="cl9"             c="Noun class 9"/>
+    <sdef n="cl10"            c="Noun class 10"/>
+    <sdef n="cl11"            c="Noun class 11"/>
+    <sdef n="cl12"            c="Noun class 12"/>
+    
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -100,8 +111,8 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>ndá<s n="n"/></l><r>maison<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>nló<s n="n"/></l><r>tête<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ndá<s n="n"/><s n="cl5"/><s n="sg"/></l><r>maison<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nló<s n="n"/><s n="cl3"/><s n="sg"/></l><r>tête<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sí<s n="n"/></l><r>terre<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>wɔ́<s n="n"/></l><r>main<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>yóp<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p></e>

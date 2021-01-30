@@ -26,7 +26,12 @@
     <sdef n="cl3"             c="Noun class 3"/>
     <sdef n="cl4"             c="Noun class 4"/>
     <sdef n="cl5"             c="Noun class 5"/>
+    <sdef n="cl5a"            c="Noun class 5a"/>
+    <sdef n="cl5b"            c="Noun class 5b"/>
+    <sdef n="cl5c"            c="Noun class 5c"/>
+    <sdef n="cl5d"            c="Noun class 5d"/>
     <sdef n="cl6"             c="Noun class 6"/>
+    <sdef n="cl6a"            c="Noun class 6a"/>
     <sdef n="cl7"             c="Noun class 7"/>
     <sdef n="cl8"             c="Noun class 8"/>
     <sdef n="cl9"             c="Noun class 9"/>
@@ -125,6 +130,31 @@
       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
+  <pardef n="n_5a/6_sg/pl">
+      <e><p><l><s n="cl5a"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+  <pardef n="n_5b/6_sg/pl">
+      <e><p><l><s n="cl5b"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+  <pardef n="n_5c/5c_sg/sg">
+      <e><p><l><s n="cl5c"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl5c"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+ </pardef>
+
+  <pardef n="n_5d/5d_sg/sg">
+      <e><p><l><s n="cl5d"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl5d"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+  </pardef>
+
+  <pardef n="n_6a/6a_pl/pl">
+      <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+      <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+ </pardef>
+
     <pardef n="n_7/8_sg/pl">
       <e><p><l><s n="cl7"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl8"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
@@ -132,109 +162,111 @@
   </pardefs>
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>ndá<s n="n"/></l><r>maison<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>ló<s n="n"/></l><r>tête<s n="n"/><s n="f"/></r></p><par n="n_3/4_sg/pl"/></e>
-      <e><p><l>sí<s n="n"/></l><r>terre<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>wɔ́<s n="n"/></l><r>main<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>yóp<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>ŋgogé<s n="n"/></l><r>soir<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>ndím<s n="n"/></l><r>eau<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>kídí<s n="n"/></l><r>matin<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>Zambá<s n="n"/></l><r>Dieu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>zǎm<s n="n"/></l><r>lèpre<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>kie<s n="n"/></l><r>fer<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>dulu<s n="n"/></l><r>marche<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>salag<s n="n"/></l><r>caniveau<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>zie<s n="n"/></l><r>faim<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>tin<s n="n"/></l><r>souche<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>nsis<s n="n"/></l><r>nerf<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>meki<s n="n"/></l><r>sang<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>bezimbi<s n="n"/></l><r>soldats<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>abui<s n="n"/></l><r>beaucoup<s n="n"/><s n="n"/></r></p></e>      
       <e><p><l>abum<s n="n"/></l><r>ventre<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>ngul<s n="n"/></l><r>force<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ndi<s n="n"/></l><r>espoir<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>ekob<s n="n"/></l><r>peau<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>osanga<s n="n"/></l><r>tisane<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>edzidzin<s n="n"/></l><r>dignité<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>avus<s n="n"/></l><r>camaraderie<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>koan<s n="n"/></l><r>réunion<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>bifə́fɛ̂<s n="n"/></l><r>végétation anarchique<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>bíáli<s n="vblex"/></l><r>naître<s n="vblex"/></r></p></e>
-      <e><p><l>fola<s n="n"/></l><r>place<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>yɔŋ<s n="n"/></l><r>temps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>fəg<s n="n"/></l><r>sagesse<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>okɔ̌n<s n="n"/></l><r>maladie<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ngós<s n="n"/></l><r>groupe<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>abɔ<s n="n"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>bɔ́d<s n="n"/></l><r>petitesse<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>bǐg<s n="n"/></l><r>urticaire<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>abui<s n="n"/></l><r>beaucoup<s n="n"/><s n="n"/></r></p></e>
-      <e><p><l>bú<s n="n"/></l><r>touffe<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>afə́<s n="n"/></l><r>autre<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>fə́b<s n="n"/></l><r>papier<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>anə́<s n="adv"/></l><r>comme<s n="adv"/></r></p></e>
-      <e><p><l>kə́ŋ<s n="n"/></l><r>intelligence<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>kə̌ŋ<s n="n"/></l><r>technique<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>lɛ̌ná<s n="n"/></l><r>infection due à une morsure d'araignée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>mǒs<s n="n"/></l><r>journée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>ngə́ngɛ̌<s n="n"/></l><r>insecte<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>ǎl<s n="n"/></l><r>village<s n="n"/><s n="m"/></r></p><par n="n_5a/6_sg/pl"/></e>
+      <e><p><l>anə́<s n="adv"/></l><r>comme<s n="adv"/></r></p></e>        
       <e><p><l>ángondó<s n="n"/></l><r>horreur<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>tə̌g<s n="n"/></l><r>faiblesse<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>tólóg<s n="n"/></l><r>papule<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>átɔ̌m<s n="n"/></l><r>ulcère<s n="m"/></r></p></e>
-      <e><p><l>vól<s n="n"/></l><r>rapidité<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>vɔ́ŋ<s n="n"/></l><r>graisse<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>və́ŋ<s n="n"/></l><r>plaie<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>yǎb<s n="n"/></l><r>longueur<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>yié<s n="n"/></l><r>difficulté<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>yəgɛ́<s n="n"/></l><r>apprentissage<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>yǒm<s n="n"/></l><r>vieillesse<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>yóŋ<s n="n"/></l><r>chaleur<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
-      <e><p><l>zué<s n="n"/></l><r>pauvreté<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>avus<s n="n"/></l><r>camaraderie<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>baala<s n="vblex"/></l><r>garder<s n="vblex"/></r></p></e>
+      <e><p><l>badə<s n="vblex"/></l><r>encore<s n="vblex"/></r></p></e>
       <e><p><l>bam<s n="vblex"/></l><r>gronder<s n="vblex"/></r></p></e>
       <e><p><l>ban<s n="vblex"/></l><r>appuyer sur<s n="vblex"/></r></p></e>
-      <e><p><l>biaŋ<s n="n"/></l><r>médicament<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>big<s n="vblex"/></l><r>dépister<s n="vblex"/></r></p></e>
-      <e><p><l>bili<s n="vblex"/></l><r>être contaminé<s n="vblex"/></r></p></e>
-      <e><p><l>bɔ<s n="vblex"/></l><r>faire<s n="vblex"/></r></p></e>
-      <e><p><l>bɔban<s n="vblex"/></l><r>se faire<s n="vblex"/></r></p></e>
       <e><p><l>béde<s n="vblex"/></l><r>soulever<s n="vblex"/></r></p></e>
-      <e><p><l>bəgə<s n="vblex"/></l><r>porter<s n="vblex"/></r></p></e>
-      <e><p><l>badə<s n="vblex"/></l><r>encore<s n="vblex"/></r></p></e>
-      <e><p><l>bəlan<s n="vblex"/></l><r>utiliser<s n="vblex"/></r></p></e>
       <e><p><l>bɛ<s n="vblex"/></l><r>dépecer<s n="vblex"/></r></p></e>
+      <e><p><l>bəgə<s n="vblex"/></l><r>porter<s n="vblex"/></r></p></e>
+      <e><p><l>bəlan<s n="vblex"/></l><r>utiliser<s n="vblex"/></r></p></e>
+      <e><p><l>biaŋ<s n="n"/></l><r>médicament<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bíáli<s n="vblex"/></l><r>naître<s n="vblex"/></r></p></e>
+      <e><p><l>bifə́fɛ̂<s n="n"/></l><r>végétation anarchique<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>big<s n="vblex"/></l><r>dépister<s n="vblex"/></r></p></e>
+      <e><p><l>bǐɡ<s n="n"/></l><r>urticaire<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>bili<s n="vblex"/></l><r>être contaminé<s n="vblex"/></r></p></e>
+      <e><p><l>bɔban<s n="vblex"/></l><r>se faire<s n="vblex"/></r></p></e>
+      <e><p><l>bɔ<s n="vblex"/></l><r>faire<s n="vblex"/></r></p></e>
+      <e><p><l>bɔ́d<s n="n"/></l><r>petitesse<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>bú<s n="n"/></l><r>touffe<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>bwala<s n="vblex"/></l><r>soutenir un témoignage<s n="vblex"/></r></p></e>
+      <e><p><l>dulu<s n="n"/></l><r>marche<s n="n"/><s n="f"/></r></p></e> 
       <e><p><l>dzo<s n="n"/></l><r>membre du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>fəl<s n="n"/></l><r>cicatrice<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>lɔbí<s n="n"/></l><r>marécage<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>lɔ́g<s n="n"/></l><r>herbe<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>lunga<s n="n"/></l><r>association<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>mvúm<s n="n"/></l><r>particule<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>nam<s n="n"/></l><r>membre supérieur du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>ngas<s n="n"/></l><r>marais<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>sə́dəga<s n="n"/></l><r>échantillon<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>tam<s n="n"/></l><r>puits<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>vɛs<s n="n"/></l><r>os<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>vəga<s n="n"/></l><r>exemple<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>wemənga<s n="n"/></l><r>nécrose<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
-      <e><p><l>yalga<s n="n"/></l><r>enveloppe<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
+      <e><p><l>edzidzin<s n="n"/></l><r>dignité<s n="n"/><s n="f"/></r></p></e> 
+      <e><p><l>ekob<s n="n"/></l><r>peau<s n="n"/><s n="f"/></r></p></e>     
       <e><p><l>fə́b<s n="vblex"/></l><r>sonder<s n="vblex"/></r></p></e>
+      <e><p><l>fə́b<s n="n"/></l><r>papier<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>fəg<s n="n"/></l><r>sagesse<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fəl<s n="n"/></l><r>cicatrice<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>fíd<s n="vblex"/></l><r>écraser<s n="vblex"/></r></p></e>
+      <e><p><l>fola<s n="n"/></l><r>place<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e> 
+      <e><p><l>iníngá<s n="n"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="n_1/2_sg/pl"/></e>
       <e><p><l>kalan<s n="vblex"/></l><r>transmettre<s n="vblex"/></r></p></e>
       <e><p><l>ki<s n="vblex"/></l><r>s'abstenir<s n="vblex"/></r></p></e>
+      <e><p><l>kie<s n="n"/></l><r>fer<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>kili<s n="vblex"/></l><r>interdire à<s n="vblex"/></r></p></e>
-      <e><p><l>kpələ́mvě<s n="n"/></l><r>cellulite<s n="f"/></r></p></e>
       <e><p><l>kə<s n="vblex"/></l><r>partir<s n="vblex"/></r></p></e>
+      <e><p><l>kə́ŋ<s n="n"/></l><r>intelligence<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>kə̌ŋ<s n="n"/></l><r>technique<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>kídí<s n="n"/></l><r>matin<s n="n"/><s n="m"/></r></p></e>   
+      <e><p><l>koan<s n="n"/></l><r>réunion<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>      
+      <e><p><l>kpələ́mvě<s n="n"/></l><r>cellulite<s n="f"/></r></p></e>
+      <e><p><l>lɛ̌ná<s n="n"/></l><r>infection due à une morsure d'araignée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>lod<s n="vblex"/></l><r>dépasser<s n="vblex"/></r></p></e>
+      <e><p><l>lɔbí<s n="n"/></l><r>marécage<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
+      <e><p><l>lɔ́g<s n="n"/></l><r>herbe<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
+      <e><p><l>ló<s n="n"/></l><r>tête<s n="n"/><s n="f"/></r></p><par n="n_3/4_sg/pl"/></e>
+      <e><p><l>lunga<s n="n"/></l><r>association<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>manə<s n="vblex"/></l><r>terminer<s n="vblex"/></r></p></e>
-      <e><p><l>iníngá<s n="n"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="n_1/2_sg/pl"/></e>
+      <e><p><l>meki<s n="n"/></l><r>sang<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mǒs<s n="n"/></l><r>journée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>      
+      <e><p><l>mvúm<s n="n"/></l><r>particule<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
+      <e><p><l>nam<s n="n"/></l><r>membre supérieur du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
+      <e><p><l>ndá<s n="n"/></l><r>maison<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>     
+      <e><p><l>ndi<s n="n"/></l><r>espoir<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>ndím<s n="n"/></l><r>eau<s n="n"/><s n="f"/></r></p><par n="n_6a/6a_pl/pl"/></e>      
+      <e><p><l>ngas<s n="n"/></l><r>marais<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
+      <e><p><l>ngə́ngɛ̌<s n="n"/></l><r>insecte<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>      
+      <e><p><l>ngogé<s n="n"/></l><r>soir<s n="n"/><s n="m"/></r></p></e>  
+      <e><p><l>ngós<s n="n"/></l><r>groupe<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>    
+      <e><p><l>ngul<s n="n"/></l><r>force<s n="n"/><s n="f"/></r></p></e>     
+      <e><p><l>nsis<s n="n"/></l><r>nerf<s n="n"/><s n="m"/></r></p></e> 
+      <e><p><l>oáp<s n="n"/></l><r>nombril<s n="n"/><s n="m"/></r></p><par n="n_5b/6_sg/pl"/></e>      
+     <e><p><l>oe<s n="n"/></l><r>rire<s n="n"/><s n="m"/></r></p><par n="n_5c/5c_sg/sg"/></e>      
+     <e><p><l>okɔ̌n<s n="n"/></l><r>maladie<s n="n"/><s n="f"/></r></p></e>  
+     <e><p><l>óp<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p><par n="n_5d/5d_sg/sg"/></e>         
       <e><p><l>ɔ́ngɔ́<s n="n"/></l><r>enfant<s n="n"/><s n="m"/></r></p><par n="n_1/2_sg/pl"/></e>
-      <e><p><l>kpələ́mvě<s n="n"/></l><r>cellulite<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>salag<s n="n"/></l><r>caniveau<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>     
+      <e><p><l>sanga<s n="n"/></l><r>tisane<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sə́dəga<s n="n"/></l><r>échantillon<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>      
+      <e><p><l>sí<s n="n"/></l><r>terre<s n="n"/><s n="f"/></r></p></e>     
+      <e><p><l>tam<s n="n"/></l><r>puits<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>     
       <e><p><l>tɛ́<s n="vblex"/></l><r>être douloureux<s n="vblex"/></r></p></e>
+      <e><p><l>tə̌g<s n="n"/></l><r>faiblesse<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>tin<s n="n"/></l><r>souche<s n="n"/><s n="f"/></r></p></e> 
+      <e><p><l>tólóg<s n="n"/></l><r>papule<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>     
+      <e><p><l>vɛs<s n="n"/></l><r>os<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>      
+      <e><p><l>vəga<s n="n"/></l><r>exemple<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>       
+      <e><p><l>və́ŋ<s n="n"/></l><r>plaie<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>     
+      <e><p><l>vól<s n="n"/></l><r>rapidité<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>      
+      <e><p><l>vɔ́ŋ<s n="n"/></l><r>graisse<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>      
+      <e><p><l>wemənɡa<s n="n"/></l><r>nécrose<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
+      
+      <e><p><l>wɔ́<s n="n"/></l><r>main<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>yá<s n="vblex"/></l><r>grandir<s n="vblex"/></r></p></e>
+      <e><p><l>yǎb<s n="n"/></l><r>longueur<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>yalga<s n="n"/></l><r>enveloppe<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
+      <e><p><l>yəɡɛ́<s n="n"/></l><r>apprentissage<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>yi<s n="vblex"/></l><r>vouloir<s n="vblex"/></r></p></e>
+      <e><p><l>yié<s n="n"/></l><r>difficulté<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>    
+      <e><p><l>yǒm<s n="n"/></l><r>vieillesse<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>yɔŋ<s n="n"/></l><r>temps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>yóməló<s n="vblex"/></l><r>raviver<s n="vblex"/></r></p></e>
+      <e><p><l>yóŋ<s n="n"/></l><r>chaleur<s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
+      <e><p><l>Zambá<s n="n"/></l><r>Dieu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>zǎm<s n="n"/></l><r>lèpre<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>zie<s n="n"/></l><r>faim<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>zimbi<s n="n"/></l><r>soldats<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>

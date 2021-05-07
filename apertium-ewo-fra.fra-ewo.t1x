@@ -46,6 +46,22 @@
         </out>
       </action>
     </rule>
+<rule comment="det nom → nom">
+    <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+    </pattern>
+    <action>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+    </action>
+</rule>
   </section-rules>
 </transfer>
 

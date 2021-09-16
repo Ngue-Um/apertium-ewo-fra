@@ -4,6 +4,9 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="det-pos">
+      <cat-item tags="det.pos"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -60,6 +63,24 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+    </action>
+  </rule>
+  <rule comment="nom det-pos → det-pos nom">
+    <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="det-pos"/>
+    </pattern>
+    <action>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu><clip pos="2" side="tl" part="whole"/></lu>
+            <b/>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
           </chunk>
         </out>

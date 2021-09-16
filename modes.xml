@@ -16,6 +16,9 @@
       <program name="apertium-tagger -u 2 -g $2">
         <file name="ewo-fra.prob"/>
       </program>
+      <program name="lsx-proc">
+        <file name="ewo-fra.autoseq.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ewo-fra.autobil.bin"/>

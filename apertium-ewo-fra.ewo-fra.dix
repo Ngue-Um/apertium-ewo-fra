@@ -22,6 +22,7 @@
     <sdef n="prn"             c="Pronoun"/>
 
     <sdef n="cl1"             c="Noun class 1"/>
+    <sdef n="cl1a"            c="Noun class 1a"/>
     <sdef n="cl2"             c="Noun class 2"/>
     <sdef n="cl3"             c="Noun class 3"/>
     <sdef n="cl4"             c="Noun class 4"/>
@@ -159,12 +160,21 @@
       <e><p><l><s n="cl7"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl8"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
-  </pardefs>
+
+   <pardef n="pos_1/2_sg/pl">
+      <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+   </pardefs>
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>abui<s n="n"/></l><r>beaucoup<s n="n"/><s n="n"/></r></p></e>      
-      <e><p><l>abum<s n="n"/></l><r>ventre<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>abui<s n="adv"/></l><r>beaucoup<s n="adv"/></r></p></e>  
+      <e><p><l>am<s n="pos"/></l><r>mon<s n="pos"/><s n="m"/></r></p><par n="pos_1/2_sg/pl"/></e>   
+      <e><p><l>am<s n="pos"/></l><r>ma<s n="pos"/><s n="f"/></r></p><par n="pos_1/2_sg/pl"/></e>   
+      <e><p><l>am<s n="pos"/></l><r>mes<s n="pos"/><s n="m"/></r></p><par n="pos_1/2_sg/pl"/></e>   
+      <e><p><l>am<s n="pos"/></l><r>mes<s n="pos"/><s n="f"/></r></p><par n="pos_1/2_sg/pl"/></e>  
+      <e><p><l>bum<s n="n"/></l><r>ventre<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>abò<s n="n"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>afë<s n="n"/></l><r>autre<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>al<s n="n"/></l><r>village<s n="n"/><s n="m"/></r></p><par n="n_5a/6_sg/pl"/></e>
@@ -220,7 +230,7 @@
       <e><p><l>lunga<s n="n"/></l><r>association<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>manë<s n="vblex"/></l><r>terminer<s n="vblex"/></r></p></e>
       <e><p><l>meki<s n="n"/></l><r>sang<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>mos<s n="n"/></l><r>journée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>      
+      <e><p><l>mos<s n="n"/></l><r>journée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>   
       <e><p><l>mvum<s n="n"/></l><r>particule<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>nam<s n="n"/></l><r>membre supérieur du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>nda<s n="n"/></l><r>maison<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>     
@@ -235,7 +245,9 @@
       <e><p><l>oap<s n="n"/></l><r>nombril<s n="n"/><s n="m"/></r></p><par n="n_5b/6_sg/pl"/></e>      
      <e><p><l>oe<s n="n"/></l><r>rire<s n="n"/><s n="m"/></r></p><par n="n_5c/5c_sg/sg"/></e>      
      <e><p><l>okòn<s n="n"/></l><r>maladie<s n="n"/><s n="f"/></r></p></e>  
-     <e><p><l>op<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p><par n="n_5d/5d_sg/sg"/></e>         
+     <e><p><l>op<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p><par n="n_5d/5d_sg/sg"/></e>   
+     <e><p><l>ot<s n="n"/></l><r>personne<s n="n"/><s n="f"/></r></p><par n="n_1/2_sg/pl"/></e> 
+     <e><p><l>ot<s n="n"/></l><r>personnes<s n="n"/><s n="f"/></r></p><par n="n_1/2_sg/pl"/></e>        
       <e><p><l>òngò<s n="n"/></l><r>enfant<s n="n"/><s n="m"/></r></p><par n="n_1/2_sg/pl"/></e>
       <e><p><l>salag<s n="n"/></l><r>caniveau<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>     
       <e><p><l>sanga<s n="n"/></l><r>tisane<s n="n"/><s n="f"/></r></p></e>

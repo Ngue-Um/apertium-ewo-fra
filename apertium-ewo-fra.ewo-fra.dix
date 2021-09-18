@@ -119,7 +119,11 @@
     <pardef n="n_1/2_sg/pl">
       <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
-    </pardef>    
+    </pardef>  
+    <pardef n="n_1a/2_sg/pl">
+      <e><p><l><s n="cl1a"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>   
 
    <pardef n="n_3/4_sg/pl">
       <e><p><l><s n="cl3"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
@@ -161,27 +165,38 @@
       <e><p><l><s n="cl8"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
-   <pardef n="pos_1/2_sg/pl">
-      <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
-      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    <pardef n="n_9/10_sg/pl">
+      <e><p><l><s n="cl9"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl10"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+   <pardef n="pos_1_m/f">
+      <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+   <pardef n="pos_2_m/f">
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="sg"/></r></p></e>
     </pardef>
    </pardefs>
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>abui<s n="adv"/></l><r>beaucoup<s n="adv"/></r></p></e>  
-      <e><p><l>am<s n="pos"/></l><r>mon<s n="pos"/><s n="m"/></r></p><par n="pos_1/2_sg/pl"/></e>   
-      <e><p><l>am<s n="pos"/></l><r>ma<s n="pos"/><s n="f"/></r></p><par n="pos_1/2_sg/pl"/></e>   
-      <e><p><l>am<s n="pos"/></l><r>mes<s n="pos"/><s n="m"/></r></p><par n="pos_1/2_sg/pl"/></e>   
-      <e><p><l>am<s n="pos"/></l><r>mes<s n="pos"/><s n="f"/></r></p><par n="pos_1/2_sg/pl"/></e>  
-      <e><p><l>bum<s n="n"/></l><r>ventre<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>abò<s n="n"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>afë<s n="n"/></l><r>autre<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>al<s n="n"/></l><r>village<s n="n"/><s n="m"/></r></p><par n="n_5a/6_sg/pl"/></e>
-      <e><p><l>añ<s n="n"/></l><r>médicament<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>      
-      <e><p><l>anë<s n="adv"/></l><r>comme<s n="adv"/></r></p></e>        
-      <e><p><l>angondo<s n="n"/></l><r>horreur<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>atòm<s n="n"/></l><r>ulcère<s n="m"/></r></p></e>
+   <e><p><l>abui<s n="adv"/></l><r>beaucoup<s n="adv"/></r></p></e>  
+   <e><p><l>al<s n="n"/></l><r>village<s n="n"/><s n="m"/></r></p><par n="n_5a/6_sg/pl"/></e>
+   <e><p><l>am<s n="pos"/></l><r>mon<s n="pos"/></r></p><par n="pos_1_m/f"/></e>   
+   <e><p><l>am<s n="pos"/></l><r>ma<s n="pos"/></r></p><par n="pos_1_m/f"/></e>
+   <e><p><l>am<s n="pos"/></l><r>mes<s n="pos"/></r></p><par n="pos_2_m/f"/></e> 
+   <e><p><l>am<s n="pos"/></l><r>mes<s n="pos"/></r></p><par n="pos_2_m/f"/></e>  
+   <e><p><l>anë<s n="adv"/></l><r>comme<s n="adv"/></r></p></e>    
+   <e><p><l>angondo<s n="n"/></l><r>horreur<s n="n"/><s n="f"/></r></p><par n="n_9/10_sg/pl"/></e>  
+  <e><p><l>añ<s n="n"/></l><r>médicament<s n="n"/><s n="m"/></r></p></e>  
+  <e><p><l>bum<s n="n"/></l><r>ventre<s n="n"/><s n="m"/></r></p></e>
+  <e><p><l>abò<s n="n"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
+  <e><p><l>afë<s n="n"/></l><r>autre<s n="n"/><s n="m"/></r></p></e>
+  <e><p><l>añ<s n="n"/></l><r>médicament<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>      
+  <e><p><l>anë<s n="adv"/></l><r>comme<s n="adv"/></r></p></e>        
+  <e><p><l>atòm<s n="n"/></l><r>ulcère<s n="m"/></r></p></e>
       <e><p><l>avus<s n="n"/></l><r>camaraderie<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>baala<s n="vblex"/></l><r>garder<s n="vblex"/></r></p></e>
       <e><p><l>badë<s n="vblex"/></l><r>encore<s n="vblex"/></r></p></e>
@@ -203,6 +218,7 @@
       <e><p><l>bwala<s n="vblex"/></l><r>soutenir un témoignage<s n="vblex"/></r></p></e>
       <e><p><l>dulu<s n="n"/></l><r>marche<s n="n"/><s n="f"/></r></p></e> 
       <e><p><l>dzo<s n="n"/></l><r>membre du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
+     <e><p><l>dzogodo<s n="n"/></l><r>canton<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>edzidzin<s n="n"/></l><r>dignité<s n="n"/><s n="f"/></r></p></e> 
       <e><p><l>ekob<s n="n"/></l><r>peau<s n="n"/><s n="f"/></r></p></e>     
       <e><p><l>fëb<s n="vblex"/></l><r>sonder<s n="vblex"/></r></p></e>

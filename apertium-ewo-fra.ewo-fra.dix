@@ -7,6 +7,7 @@
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
+    <sdef n="v"               c="Verb"/>
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
@@ -341,6 +342,11 @@
       <e><p><l>zam<s n="n"/></l><r>lèpre<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>zie<s n="n"/></l><r>faim<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>zimbi<s n="n"/></l><r>soldats<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
+
+
+      <e><p><l>ve<s n="v"/></l><r>donner<s n="vblex"/></r></p></e>
+      <e><p><l>ve<b/>endegele<s n="v"/></l><r>déranger<s n="vblex"/></r></p></e>
+      <e><p><l>ndegele<s n="n"/></l><r>ennui<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>am<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND"/></e>
 

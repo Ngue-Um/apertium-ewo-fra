@@ -4,21 +4,24 @@
     <sdefs>
         <sdef n="adv"/>
         <sdef n="v"/>
+        <sdef n="inf"/>
         <sdef n="iv"/>
         <sdef n="tv"/>
         <sdef n="n"/>
+        <sdef n="cl7"/>
+        <sdef n="sg"/>
     </sdefs>
     <pardefs>
     </pardefs>
 
     <section id="main" type="standard">
 
-        <e lm="ve endengele" c="déranger"><p>
-                <l>ve<s n="v"/><s n="tv"/></l>
-                <r>ve<b/>endengele<s n="v"/><s n="iv"/></r>
+        <e lm="ve endegele" c="déranger"><p>
+                <l>ve<s n="v"/></l>
+                <r>ve<b/>endegele<s n="v"/></r>
             </p>
             <i><t/><j/></i>
-            <p><l>endengele<s n="n"/><j/></l><r></r></p>
+            <p><l>ndegele<s n="n"/><s n="cl7"/><s n="sg"/><j/></l><r></r></p>
         </e>
 
 

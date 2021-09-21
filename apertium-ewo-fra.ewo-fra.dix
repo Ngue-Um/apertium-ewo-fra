@@ -22,9 +22,12 @@
     <sdef n="prn"             c="Pronoun"/>
 
     <sdef n="cl1"             c="Noun class 1"/>
+    <sdef n="cl1a"            c="Noun class 1a"/>
     <sdef n="cl2"             c="Noun class 2"/>
     <sdef n="cl3"             c="Noun class 3"/>
+    <sdef n="cl3a"             c="Noun class 3a"/>
     <sdef n="cl4"             c="Noun class 4"/>
+    <sdef n="cl4a"             c="Noun class 4a"/>
     <sdef n="cl5"             c="Noun class 5"/>
     <sdef n="cl5a"            c="Noun class 5a"/>
     <sdef n="cl5b"            c="Noun class 5b"/>
@@ -37,7 +40,7 @@
     <sdef n="cl9"             c="Noun class 9"/>
     <sdef n="cl10"            c="Noun class 10"/>
     <sdef n="cl11"            c="Noun class 11"/>
-    <sdef n="cl12"            c="Noun class 12"/>
+    <sdef n="cl16"            c="Noun class 16"/>
     
 
     <sdef n="attr"            c="Attributive"/>
@@ -90,6 +93,7 @@
     <sdef n="pprs"            c="Present participle"/>
     <sdef n="pasv"            c="Passive"/>
     <sdef n="actv"            c="Active voice"/>
+    <sdef n="refl"            c="Reflexive"/>
 
     <sdef n="sint"            c="Synthetic (of adjectives)"/>
     <sdef n="pst"             c="Positive"/>
@@ -121,51 +125,96 @@
       <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
     </pardef>    
 
-    <pardef n="n_1/2_sg/pl">
+    <pardef n="n_1/2_sg/pl">  <!-- Gender-1 -->
       <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
-    </pardef>    
+    </pardef>  
+    <pardef n="n_1a/2_sg/pl"> <!-- Gender-1a -->
+      <e><p><l><s n="cl1a"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>   
 
-   <pardef n="n_3/4_sg/pl">
+   <pardef n="n_3/4_sg/pl"> <!-- Gender-2 -->
       <e><p><l><s n="cl3"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl4"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
-  <pardef n="n_5/6_sg/pl">
+    <pardef n="n_3/3_sg/sg"> <!-- Gender-2a -->
+      <e><p><l><s n="cl3"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl3"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="n_4/4_pl/pl"> <!-- Gender-2b -->
+      <e><p><l><s n="cl4"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+      <e><p><l><s n="cl4"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+  <pardef n="n_5/6_sg/pl"> <!-- Gender-3 -->
       <e><p><l><s n="cl5"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
-  <pardef n="n_5a/6_sg/pl">
+  <pardef n="n_5a/6_sg/pl"> <!-- Gender-3a -->
       <e><p><l><s n="cl5a"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
-  <pardef n="n_5b/6_sg/pl">
+  <pardef n="n_5b/6_sg/pl"> <!-- Gender-3b -->
       <e><p><l><s n="cl5b"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
-  <pardef n="n_5c/5c_sg/sg">
+  <pardef n="n_5c/5c_sg/sg"> <!-- Gender-3c -->
       <e><p><l><s n="cl5c"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl5c"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
  </pardef>
 
-  <pardef n="n_5d/5d_sg/sg">
+  <pardef n="n_5d/5d_sg/sg"> <!-- Gender-3d -->
       <e><p><l><s n="cl5d"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl5d"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
   </pardef>
 
-  <pardef n="n_6a/6a_pl/pl">
+  <pardef n="n_5/5_sg/sg"> <!-- Gender-3e -->
+      <e><p><l><s n="cl5"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl5"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+  </pardef>
+
+  <pardef n="n_6a/6a_pl/pl"> <!-- Gender-3f -->
       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
  </pardef>
 
-    <pardef n="n_7/8_sg/pl">
+    <pardef n="n_7/8_sg/pl"> <!-- Gender-4 -->
       <e><p><l><s n="cl7"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
       <e><p><l><s n="cl8"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
-  </pardefs>
+
+    <pardef n="n_9/10_sg/pl"> <!-- Gender-5 -->
+      <e><p><l><s n="cl9"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl10"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="n_11/16_sg/pl"> <!-- Gender-6 -->
+      <e><p><l><s n="cl11"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="cl16"/><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+   <pardef n="pos_1_m/f">
+      <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+   <pardef n="pos_2_m/f">
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="sg"/></r></p></e>
+   </pardef>
+   
+   <!--
+   <pardef n="vblex_VERB_INF">
+      <e><p><l><s n="inf"/></l><r>< n="inf"/></r></p></e>
+   </pardef>
+   -->
+
+   </pardefs>
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
@@ -183,6 +232,22 @@
       <e><p><l>baala<s n="vblex"/></l><r>garder<s n="vblex"/></r></p></e>
       <e><p><l>badë<s n="vblex"/></l><r>encore<s n="vblex"/></r></p></e>
       <e><p><l>bam<s n="vblex"/></l><r>gronder<s n="vblex"/></r></p></e>
+   <e><p><l>abui<s n="adv"/></l><r>beaucoup<s n="adv"/></r></p></e>  
+   <e><p><l>al<s n="n"/></l><r>village<s n="n"/><s n="m"/></r></p><par n="n_5a/6_sg/pl"/></e>
+   <e><p><l>anë<s n="adv"/></l><r>comme<s n="adv"/></r></p></e>    
+   <e><p><l>angondo<s n="n"/></l><r>horreur<s n="n"/><s n="f"/></r></p><par n="n_5/5_sg/sg"/></e>  
+   <e><p><l>añ<s n="n"/></l><r>médicament<s n="n"/><s n="m"/></r></p></e>  
+   <e><p><l>bum<s n="n"/></l><r>ventre<s n="n"/><s n="m"/></r></p></e>
+   <e><p><l>abò<s n="n"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
+   <e><p><l>afë<s n="n"/></l><r>autre<s n="n"/><s n="m"/></r></p></e>
+   <e><p><l>añ<s n="n"/></l><r>médicament<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>      
+   <e><p><l>anë<s n="adv"/></l><r>comme<s n="adv"/></r></p></e>        
+   <e><p><l>atòm<s n="n"/></l><r>ulcère<s n="m"/></r></p></e>
+   <e><p><l>ayoñ<s n="n"/></l><r>chaleur<s n="n"/><s n="f"/></r></p><par n="n_5/5_sg/sg"/></e>
+   <e><p><l>avus<s n="n"/></l><r>camaraderie<s n="n"/><s n="f"/></r></p><par n="n_5/5_sg/sg"/></e>
+   <e><p><l>baala<s n="inf"/></l><r>garder<s n="inf"/></r></p></e>
+   <e><p><l>badë<s n="vblex"/></l><r>encore<s n="vblex"/></r></p></e>
+   <e><p><l>bam<s n="vblex"/></l><r>gronder<s n="vblex"/></r></p></e>
       <e><p><l>ban<s n="vblex"/></l><r>appuyer sur<s n="vblex"/></r></p></e>
       <e><p><l>bede<s n="vblex"/></l><r>soulever<s n="vblex"/></r></p></e>
       <e><p><l>bè<s n="vblex"/></l><r>dépecer<s n="vblex"/></r></p></e>
@@ -193,13 +258,14 @@
       <e><p><l>big<s n="vblex"/></l><r>dépister<s n="vblex"/></r></p></e>
       <e><p><l>big<s n="n"/></l><r>urticaire<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>bili<s n="vblex"/></l><r>être contaminé<s n="vblex"/></r></p></e>
-      <e><p><l>bòban<s n="vblex"/></l><r>se faire<s n="vblex"/></r></p></e>
+      <e><p><l>bòban<s n="refl"/><s n="inf"/></l><r>se faire<s n="refl"/><s n="inf"/></r></p></e>
       <e><p><l>bò<s n="vblex"/></l><r>faire<s n="vblex"/></r></p></e>
       <e><p><l>bòd<s n="n"/></l><r>petitesse<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>bu<s n="n"/></l><r>touffe<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>bwala<s n="vblex"/></l><r>soutenir un témoignage<s n="vblex"/></r></p></e>
       <e><p><l>dulu<s n="n"/></l><r>marche<s n="n"/><s n="f"/></r></p></e> 
       <e><p><l>dzo<s n="n"/></l><r>membre du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
+     <e><p><l>dzogodo<s n="n"/></l><r>canton<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>edzidzin<s n="n"/></l><r>dignité<s n="n"/><s n="f"/></r></p></e> 
       <e><p><l>ekob<s n="n"/></l><r>peau<s n="n"/><s n="f"/></r></p></e>     
       <e><p><l>fëb<s n="vblex"/></l><r>sonder<s n="vblex"/></r></p></e>
@@ -227,7 +293,7 @@
       <e><p><l>lunga<s n="n"/></l><r>association<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>manë<s n="vblex"/></l><r>terminer<s n="vblex"/></r></p></e>
       <e><p><l>meki<s n="n"/></l><r>sang<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>mos<s n="n"/></l><r>journée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>      
+      <e><p><l>mos<s n="n"/></l><r>journée<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>   
       <e><p><l>mvum<s n="n"/></l><r>particule<s n="n"/><s n="f"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>nam<s n="n"/></l><r>membre supérieur du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
       <e><p><l>nda<s n="n"/></l><r>maison<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>     
@@ -242,7 +308,7 @@
       <e><p><l>oap<s n="n"/></l><r>nombril<s n="n"/><s n="m"/></r></p><par n="n_5b/6_sg/pl"/></e>      
      <e><p><l>oe<s n="n"/></l><r>rire<s n="n"/><s n="m"/></r></p><par n="n_5c/5c_sg/sg"/></e>      
      <e><p><l>okòn<s n="n"/></l><r>maladie<s n="n"/><s n="f"/></r></p></e>  
-     <e><p><l>op<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p><par n="n_5d/5d_sg/sg"/></e>         
+     <e><p><l>op<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p><par n="n_5d/5d_sg/sg"/></e>   
       <e><p><l>òngò<s n="n"/></l><r>enfant<s n="n"/><s n="m"/></r></p><par n="n_1/2_sg/pl"/></e>
       <e><p><l>salag<s n="n"/></l><r>caniveau<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>     
       <e><p><l>sanga<s n="n"/></l><r>tisane<s n="n"/><s n="f"/></r></p></e>

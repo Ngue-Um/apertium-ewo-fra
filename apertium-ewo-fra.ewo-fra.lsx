@@ -3,7 +3,7 @@
     <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
     <sdefs>
         <sdef n="adv"/>
-        <sdef n="v"/>
+        <sdef n="vblex"/>
         <sdef n="inf"/>
         <sdef n="iv"/>
         <sdef n="tv"/>
@@ -17,8 +17,8 @@
     <section id="main" type="standard">
 
         <e lm="ve endegele" c="déranger"><p>
-                <l>ve<s n="v"/></l>
-                <r>ve<b/>endegele<s n="v"/></r>
+                <l>ve<s n="vblex"/></l>
+                <r>ve<b/>endegele<s n="vblex"/></r>
             </p>
             <i><t/><j/></i>
             <p><l>ndegele<s n="n"/><s n="cl7"/><s n="sg"/><j/></l><r></r></p>

@@ -65,6 +65,7 @@
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mf"               c=""/>
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
@@ -123,6 +124,7 @@
   <pardefs>
     <pardef n="pos_GDND">
       <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+      <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="mf"/><s n="ND"/></r></p></e>
     </pardef>    
 
     <pardef n="n_1/2_sg/pl">  <!-- Gender-1 -->

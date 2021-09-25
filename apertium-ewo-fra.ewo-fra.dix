@@ -122,10 +122,30 @@
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
   <pardefs>
-    <pardef n="pos_GDND">
+    <pardef n="pos_GDND_Gender-1">
       <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
       <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="mf"/><s n="ND"/></r></p></e>
+    </pardef> 
+    <pardef n="pos_GDND_Gender-2">
+      <e><p><l><s n="cl3"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+      <e><p><l><s n="cl4"/><s n="pl"/></l><r><s n="mf"/><s n="ND"/></r></p></e>
     </pardef>    
+    <pardef n="pos_GDND_Gender-3">
+      <e><p><l><s n="cl5"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+      <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="mf"/><s n="ND"/></r></p></e>
+    </pardef>
+    <pardef n="pos_GDND_Gender-4">
+      <e><p><l><s n="cl7"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+      <e><p><l><s n="cl8"/><s n="pl"/></l><r><s n="mf"/><s n="ND"/></r></p></e>
+    </pardef>
+    <pardef n="pos_GDND_Gender-5">
+      <e><p><l><s n="cl9"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+      <e><p><l><s n="cl10"/><s n="pl"/></l><r><s n="mf"/><s n="GD"/></r></p></e>
+    </pardef>
+    <pardef n ="pos_GDND_Gender-6">
+      <e><p><l><s n="cl11"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+      <e><p><l><s n="cl16"/><s n="sg"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+    </pardef>
 
     <pardef n="n_1/2_sg/pl">  <!-- Gender-1 -->
       <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="sg"/></r></p></e>
@@ -350,7 +370,12 @@
       <e><p><l>ve<b/>endegele<s n="vblex"/></l><r>déranger<s n="vblex"/></r></p></e>
       <e><p><l>ndegele<s n="n"/></l><r>ennui<s n="n"/><s n="m"/></r></p></e>
 
-      <e><p><l>am<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND"/></e>
+      <e><p><l>ama<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-1"/></e>
+     <e><p><l>ama<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-2"/></e>
+     <e><p><l>ama<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-3"/></e>
+     <e><p><l>ama<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-4"/></e>
+     <e><p><l>ama<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-5"/></e>
+     <e><p><l>ama<s n="adj"/><s n="pos"/></l><r>mon<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-6"/></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

@@ -20,6 +20,7 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="tn"             c=""/>
 
     <sdef n="cl1"             c="Noun class 1"/>
     <sdef n="cl1a"            c="Noun class 1a"/>
@@ -230,6 +231,10 @@
       <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="sg"/></r></p></e>
    </pardef>
    
+   <pardef n="cl_0">
+      <e><p><l><s n="cl1"/></l><r></r></p></e>
+   </pardef>
+
    <!--
    <pardef n="vblex_VERB_INF">
       <e><p><l><s n="inf"/></l><r>< n="inf"/></r></p></e>
@@ -239,8 +244,11 @@
    </pardefs>
 
    <section id="main" type="standard">
+      <e><p><l>a<s n="prn"/></l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p><par n="cl_0"/></e>
       <!-- Define entries within <e> here. -->
       <e><p><l>ot<s n="n"/></l><r>personne<s n="n"/><s n="f"/></r></p><par n="n_1/2_sg/pl"/></e>      
+      <e><p><l>ot<s n="n"/></l><r>homme<s n="n"/><s n="m"/></r></p><par n="n_1/2_sg/pl"/></e> 
+      <e><p><l>innga<s n="n"/></l><r>femme<s n="n"/><s n="f"/></r></p><par n="n_1/2_sg/pl"/></e>          
       <!--<e><p><l>abui<s n="n"/></l><r>beaucoup<s n="n"/><s n="n"/></r></p></e>      -->
       <e><p><l>abum<s n="n"/></l><r>ventre<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>abò<s n="n"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
@@ -252,6 +260,7 @@
       <e><p><l>atòm<s n="n"/></l><r>ulcère<s n="m"/></r></p></e>
       <e><p><l>avus<s n="n"/></l><r>camaraderie<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>baala<s n="vblex"/></l><r>garder<s n="vblex"/></r></p></e>
+      <e><p><l>di<s n="vblex"/></l><r>manger<s n="vblex"/></r></p></e>
       <e><p><l>badë<s n="vblex"/></l><r>encore<s n="vblex"/></r></p></e>
       <e><p><l>bam<s n="vblex"/></l><r>gronder<s n="vblex"/></r></p></e>
    <e><p><l>abui<s n="adv"/></l><r>beaucoup<s n="adv"/></r></p></e>  
@@ -285,6 +294,7 @@
       <e><p><l>bòd<s n="n"/></l><r>petitesse<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>bu<s n="n"/></l><r>touffe<s n="n"/><s n="f"/></r></p><par n="n_5/6_sg/pl"/></e>
       <e><p><l>bwala<s n="vblex"/></l><r>soutenir un témoignage<s n="vblex"/></r></p></e>
+      <e><p><l>dòbëdò<s n="n"/></l><r>hôpital<s n="n"/><s n="m"/></r></p></e> 
       <e><p><l>dulu<s n="n"/></l><r>marche<s n="n"/><s n="f"/></r></p></e> 
       <e><p><l>dzo<s n="n"/></l><r>membre du corps<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>
      <e><p><l>dzogodo<s n="n"/></l><r>canton<s n="n"/><s n="m"/></r></p><par n="n_5/6_sg/pl"/></e>
@@ -329,7 +339,7 @@
       <e><p><l>nsis<s n="n"/></l><r>nerf<s n="n"/><s n="m"/></r></p></e> 
       <e><p><l>oap<s n="n"/></l><r>nombril<s n="n"/><s n="m"/></r></p><par n="n_5b/6_sg/pl"/></e>      
      <e><p><l>oe<s n="n"/></l><r>rire<s n="n"/><s n="m"/></r></p><par n="n_5c/5c_sg/sg"/></e>      
-     <e><p><l>okòn<s n="n"/></l><r>maladie<s n="n"/><s n="f"/></r></p></e>  
+     <e><p><l>kòn<s n="n"/></l><r>maladie<s n="n"/><s n="f"/></r></p></e>  
      <e><p><l>op<s n="n"/></l><r>ciel<s n="n"/><s n="m"/></r></p><par n="n_5d/5d_sg/sg"/></e>   
       <e><p><l>òngò<s n="n"/></l><r>enfant<s n="n"/><s n="m"/></r></p><par n="n_1/2_sg/pl"/></e>
       <e><p><l>salag<s n="n"/></l><r>caniveau<s n="n"/><s n="m"/></r></p><par n="n_7/8_sg/pl"/></e>     

@@ -10,12 +10,23 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="a">
+      <cat-item lemma="a" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="vblex-inf">
+      <cat-item tags="vblex.inf"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -554,6 +565,26 @@
         </out>
       </action>
     </rule>
+    <rule comment="det nom → nom">
+    <pattern>
+        
+        <pattern-item n="nom"/>
+    </pattern>
+    <action>
+        <out>
+          <chunk name="n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu><lit v="le"/>
+            <lit-tag v="det.def"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/></lu><b/>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+    </action>
+  </rule>
    <rule comment="det nom → nom">
     <pattern>
         <pattern-item n="det"/>
@@ -594,6 +625,30 @@
         </out>
     </action>
   </rule>
+  <rule comment="a vblex-inf // present ">
+    <pattern>
+        <pattern-item n="a"/>
+        <pattern-item n="vblex-inf"/>
+    </pattern>
+    <action>
+        
+        <out>
+          <chunk name="vblex">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu><clip pos="2" side="tl" part="lem"/>
+            <lit-tag v="vblex.pri"/>
+            <clip pos="1" side="tl" part="pers"/>
+            <clip pos="1" side="tl" part="nbr"/></lu>
+          </chunk>
+        </out>
+    </action>
+  </rule>
+
+
   </section-rules>
 </transfer>
 

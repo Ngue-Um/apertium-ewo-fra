@@ -20,6 +20,7 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="card"            c="Cardinal numeral"/>
 
     <sdef n="cl1"             c="Noun class 1"/>
     <sdef n="cl1a"            c="Noun class 1a"/>
@@ -255,6 +256,66 @@
    <e><p><l><s n="cnjcoo"/></l><r><s n="cnjcoo"/></r></p></e>
    </pardef>
 
+   <pardef n="agr_card_1_m/f">
+       <e><p><l><s n="cl1"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="card"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+   </pardef>
+
+   <pardef n="agr_card_2_m/f">
+       <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl2"/><s n="pl"/></l><r><s n="f"/></r></p></e>
+   </pardef>
+
+   <pardef n="agr_card_3_m/f">
+       <e><p><l><s n="cl3"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl3"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+   </pardef>
+
+   <pardef n="agr_card_4_m/f">
+       <e><p><l><s n="cl4"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl4"/><s n="pl"/></l><r><s n="f"/></r></p></e>
+   </pardef>
+
+    <pardef n="agr_card_5_m/f">
+       <e><p><l><s n="cl5"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl5"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
+    <pardef n="agr_card_6_m/f">
+       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl6"/><s n="pl"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
+    <pardef n="agr_card_7_m/f">
+       <e><p><l><s n="cl7"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl7"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
+   <pardef n="agr_card_8_m/f">
+       <e><p><l><s n="cl8"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl8"/><s n="pl"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
+    <pardef n="agr_card_9_m/f">
+       <e><p><l><s n="cl9"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl9"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
+    <pardef n="agr_card_10_m/f">
+       <e><p><l><s n="cl10"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl10"/><s n="pl"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
+    <pardef n="agr_card_11_m/f">
+       <e><p><l><s n="cl11"/><s n="sg"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl11"/><s n="sg"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
+    <pardef n="agr_card_16_m/f">
+       <e><p><l><s n="cl16"/><s n="pl"/></l><r><s n="m"/></r></p></e>
+       <e><p><l><s n="cl16"/><s n="pl"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
    </pardefs>
 
    <section id="main" type="standard">
@@ -417,6 +478,8 @@
       <e><p><l>oe<s n="adj"/><s n="pos"/></l><r>ton<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-4"/></e>
       <e><p><l>oe<s n="adj"/><s n="pos"/></l><r>ton<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-5"/></e>
       <e><p><l>oe<s n="adj"/><s n="pos"/></l><r>ton<s n="det"/><s n="pos"/></r></p><par n="pos_GDND_Gender-6"/></e>
+
+     <e><p><l>be<s n ="adj"/><s n="card"/></l><r>deux<s n= "det"/><s n ="num"/></r></p><par n="agr_card_2_m/f"/></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

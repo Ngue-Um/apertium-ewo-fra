@@ -118,7 +118,9 @@
 
     <sdef n="GD"              c=""/>
     <sdef n="ND"              c=""/>
-
+<!--
+    <sdef n="a_gen"/>
+-->
     <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
